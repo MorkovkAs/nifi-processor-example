@@ -98,7 +98,7 @@ public class MyProcessor extends AbstractProcessor {
         if (flowFile == null) {
             return;
         }
-        // TODO implement
+
         try {
             String name = context.getProperty(nameProperty).evaluateAttributeExpressions(flowFile).getValue();
 
