@@ -1,0 +1,4 @@
+# Project exclude paths
+/nifi-HelloWorld-nar/target/
+/nifi-HelloWorld-processors/target/
+/target/
