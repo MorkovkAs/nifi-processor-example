@@ -43,8 +43,8 @@ import java.util.*;
 public class MyProcessor extends AbstractProcessor {
 
     public static final PropertyDescriptor nameProperty = new PropertyDescriptor
-            .Builder().name("NAME")
-            .displayName("Name")
+            .Builder().name("name")
+            .displayName("name")
             .description("Name to print")
             .required(true)
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)

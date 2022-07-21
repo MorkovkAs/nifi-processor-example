@@ -24,12 +24,13 @@
 
     <groupId>ru.morkovka</groupId>
     <artifactId>nifi-processor-example</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>nifi-HelloWorld-processors</module>
         <module>nifi-HelloWorld-nar</module>
+        <module>nifi-HelloWorld-processors-ui</module>
     </modules>
 
 </project>

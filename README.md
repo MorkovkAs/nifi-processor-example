@@ -1,7 +1,10 @@
-# NiFi Custom Processor Example
+# NiFi Custom Processor Example With UI
 
 It is a simple HelloWorld example of a NiFi Processor.\
-It prints `Hello ` + a given name to FlowFile Attribute and Content.
+It prints `Hello ` + a given name to FlowFile Attribute and Content.\
+It has custom UI to demonstrate its algorithm of work.
+
+![](screenshot.png)
 
 ## Installation
 
